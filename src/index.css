@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+
+@theme {
+  --breakpoint-3xl: 1920px;
+}
+
+@font-face {
+  font-family: 'Liebling';
+  src: url('/fonts/Liebling_Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Liebling';
+  src: url('/fonts/Liebling_Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Variable';
+  src: url('/fonts/SourceCodeVariable.woff2') format('woff2-variations'),
+       url('/fonts/SourceCodeVariable.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-title: 'Liebling', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Liebling', ui-sans-serif, system-ui, sans-serif;
+  --font-subtitle: 'Source Code Variable', ui-monospace, 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+}
+
+body {
+  margin: 0;
+  background-color: transparent;
+  font-family: 'Liebling', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: transparent;
+}
+
+#root {
+  background-color: transparent;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
