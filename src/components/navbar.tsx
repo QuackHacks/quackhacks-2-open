@@ -84,7 +84,7 @@ const NavBar: React.FC = () => {
             ))}
           </Box>
 
-          <Typography variant="body2" sx={{ color: 'black' }}>
+          <Typography variant="caption" sx={{ color: 'black', fontWeight: 400 }}>
             2025
           </Typography>
         </Toolbar>

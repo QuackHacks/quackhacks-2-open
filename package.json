@@ -10,11 +10,14 @@
     "@mui/material": "^7.0.2",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
+    "lucide-react": "^1.17.0",
+    "motion": "^12.40.0",
     "postcss": "^8.5.6",
     "prettier": "^3.5.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
+    "sharp": "^0.34.5",
     "swiper": "^11.2.10",
     "typescript": "^4.9.5"
   },
@@ -22,6 +25,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "photos:build": "node scripts/build-qh2-photo-gallery.mjs",
+    "photos:upload": "node scripts/upload-qh2-photos-s3.mjs",
     "format": "prettier --write \"src/**/*.{js,ts,tsx}\""
   },
   "devDependencies": {
