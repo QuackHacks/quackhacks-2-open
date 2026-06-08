@@ -63,7 +63,7 @@ const MainPage: React.FC = () => {
             ease-in-out
             hidden
             sm:block
-            sm:top-0
+            sm:top-16
             sm:right-5
             sm:w-20
             sm:max-w-20
