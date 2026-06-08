@@ -21,7 +21,8 @@ const App: React.FC = () => {
     };
   }, []);
 
-  const page = pathname === '/photos' ? <PhotosPage /> : <MainPage />;
+  const normalizedPathname = pathname.replace(/\/+$/, '') || '/';
+  const page = normalizedPathname === '/photos' ? <PhotosPage /> : <MainPage />;
 
   return (
     <>
